@@ -56,3 +56,12 @@
     background-color:  rgb(247, 229, 229);
     display: cover;
 }
+.mkt-text2{
+    display: flex;
+    justify-content: center;
+}
+.mkt-text3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
