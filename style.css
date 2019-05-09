@@ -11,6 +11,7 @@
 }
 .gender-style {
     font-size: 25px;
+<<<<<<< HEAD
     border: 1px groove black;
 }
 
@@ -18,3 +19,16 @@
     display: flex;
     justify-content: center;
 }
+=======
+}
+.mkt-img{
+    width: auto;
+    height: 100%;
+    /* Magic! */
+    max-height:  35vw;
+}
+.mkt-middle{
+    display: flex;
+    justify-content: center;
+}
+>>>>>>> 7752857c86f78d28eb41861e522ed8b4c524c7e2
