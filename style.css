@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #r-navbar-h {
     height: 100%;
 }
@@ -11,4 +12,9 @@
 }
 .gender-style {
     font-size: 25px;
+=======
+.mkt-middle{
+    display: flex;
+    justify-content: center;
+>>>>>>> b805dbea91a4b7dc2a6f2e9a16c14c41391b485e
 }
