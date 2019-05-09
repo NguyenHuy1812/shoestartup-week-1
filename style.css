@@ -7,10 +7,39 @@
     justify-content: center;
 }
 .r-logo-img {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .gender-style {
     font-size: 25px;
+}
+#r-navbar-h {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: ;
+}
+.dropdownMenu {
+    display: none;
+    position: relative;
+}
+.dropdownMenu a:hover {
+    background-color: black;
+    color: transparent;
+}
+.left-menu:hover .dropdownMenu {
+    display: block;
+}
+.left-menu:hover .menu-button {
+    background-color: transparent;
+}
+.right-menu:hover .dropdownMenu {
+    display: block;
+}
+.right-menu:hover .menu-button {
+    background-color: transparent;
+}
+.mkt-middle {
+    display: flex;
+    justify-content: center;
 }
 .mkt-img{
     width: auto;
