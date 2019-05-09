@@ -16,9 +16,14 @@
     width: auto;
     height: 100%;
     /* Magic! */
-    max-height:  35vw;
+    max-height:  38vw;
 }
 .mkt-middle{
-    display: flex;
+    margin-top: 30px;
     justify-content: center;
+}
+/* this line should cover all page background-color, add to global later*/
+.background-cover{
+    background-color:  rgb(247, 229, 229);
+    display: cover;
 }
