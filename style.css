@@ -1,8 +1,14 @@
 #r-navbar-h {
-height: 100%;
+    height: 100%;
 }
-.r-navbarDropdown {
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
+.r-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.r-logo-img {
+    margin-top: 5px;
+}
+.gender-style {
+    font-size: 25px;
 }
