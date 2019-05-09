@@ -2,3 +2,9 @@
     display: flex;
     justify-content: center;
 }
+.mkt-img{
+    width: auto;
+    height: 100%;
+    /* Magic! */
+    max-height:  35vw;
+}
