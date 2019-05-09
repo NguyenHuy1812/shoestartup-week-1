@@ -15,14 +15,31 @@
 .gender-style {
     font-size: 25px;
 }
-
-.mkt-img {
-    width: auto;
-    height: 100%;
-    /* Magic! */
-    max-height: 35vw;
+#r-navbar-h {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction:row ; */
 }
-
+.dropdownMenu {
+    display: none;
+    position: relative;
+}
+.dropdownMenu a:hover {
+    background-color: black;
+    color: transparent;
+}
+.left-menu:hover .dropdownMenu {
+    display: block;
+}
+.left-menu:hover .menu-button {
+    background-color: transparent;
+}
+.right-menu:hover .dropdownMenu {
+    display: block;
+}
+.right-menu:hover .menu-button {
+    background-color: transparent;
+}
 .mkt-middle {
     display: flex;
     justify-content: center;
@@ -49,6 +66,36 @@
 }
 
 .footer1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: auto;
+  background-color: #212121;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: red;
+  /* padding-bottom: 10px; */
+}
+
+.mkt-img{
+    width: auto;
+    height: 100%;
+    /* Magic! */
+    max-height:  38vw;
+}
+.mkt-middle{
+    margin-top: 30px;
+    justify-content: center;
+}
+/* this line should cover all page background-color, add to global later*/
+.background-cover{
+    background-color:  rgb(247, 229, 229);
+    display: cover;
+}
+.mkt-text2{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -292,3 +339,8 @@ li.kresize {
     background: #ff6600;
     color: white;
   } */
+.mkt-text3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
