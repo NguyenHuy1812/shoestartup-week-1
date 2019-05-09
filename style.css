@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 .mkt-middle{
     display: flex;
     justify-content: center;
 }
+=======
+#r-navbar-h {
+height: 100%;
+}
+.r-navbarDropdown {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+>>>>>>> cde8635353d9548a6e5f131d5a94ce4a5b0e5fd3
