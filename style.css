@@ -1,4 +1,4 @@
-// Navbar CSS//
+/* Navbar CSS*/
 #r-navbar-h {
     height: 100%;
 }
@@ -18,18 +18,8 @@
 }
 #r-navbar-h {
     display: flex;
-<<<<<<< HEAD
-    justify-content: center;
-}
-.left-menu {
-    width: 20em;
-}
-nav li {
-    padding: 20px;
-=======
     justify-content: space-between;
-    /* flex-direction:row ; */
->>>>>>> 47cb4d92357de5dd06e08116dbacc8d5e373a1d3
+    flex-direction:row ; 
 }
 .dropdownMenu {
     display: none;
@@ -51,7 +41,7 @@ nav li {
 .right-menu:hover .menu-button {
     background-color: transparent;
 }
-// Navbar CSS //
+/* Navbar CSS */
 
 
 .mkt-middle {
