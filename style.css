@@ -2,19 +2,23 @@
 #r-navbar-h {
     height: 100%;
 }
+
 .r-logo {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .r-logo-img {
     margin-top: 10px;
 }
+
 .gender-style {
     font-size: 25px;
 }
 #r-navbar-h {
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
 }
 .left-menu {
@@ -22,6 +26,10 @@
 }
 nav li {
     padding: 20px;
+=======
+    justify-content: space-between;
+    /* flex-direction:row ; */
+>>>>>>> 47cb4d92357de5dd06e08116dbacc8d5e373a1d3
 }
 .dropdownMenu {
     display: none;
@@ -50,13 +58,303 @@ nav li {
     display: flex;
     justify-content: center;
 }
+
+.kfooter {
+    background-color: white;
+    color: red;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #212121;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: red;
+    /* padding-bottom: 10px; */
+}
+
+.footer1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: auto;
+  background-color: #212121;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: red;
+  /* padding-bottom: 10px; */
+}
+
 .mkt-img{
     width: auto;
     height: 100%;
     /* Magic! */
-    max-height:  35vw;
+    max-height:  38vw;
 }
 .mkt-middle{
+    margin-top: 30px;
+    justify-content: center;
+}
+/* this line should cover all page background-color, add to global later*/
+.background-cover{
+    background-color:  rgb(247, 229, 229);
+    display: cover;
+}
+.mkt-text2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    min-height:370px;
+    background-color: #212121;
+    /* position: absolute;
+    left: 0;
+    right: 0; */
+    width: 100%;
+    color: red;
+    padding-bottom: 50px;
+}
+
+.footer2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #212121;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: red;
+    /* padding-bottom: 10px; */
+}
+
+.footerul {
+    list-style: none;
+    color: #9e9e9e;
+    margin: 0;
+    padding: 10px 20px 0 0;
+    font-size: 13px;
+    height: 180px;
+
+}
+
+.footerul li {
+    list-style: none;
+}
+
+li.kresize {
+ text-decoration:none !important;
+    padding: inherit;
+}
+
+
+.footerul:hover {
+    text-decoration: none;
+
+}
+
+
+.footer-heading {
+    font-size: 0.9em;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.kfl {
+    max-width: 450px;
+    vertical-align: top;
+    min-width:250px;
+    padding-top:.5em
+}
+
+.kinput {
+    color: inherit;
+    padding: 10px 10px 10px 5px !important;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background: transparent;
+    margin-bottom: 0;
+    height: 36px;
+    /* -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; */
+    -webkit-transition-property: height; /* Safari */
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-property: height;
+    transition-duration: 1s;
+}
+
+.kinput[type=text]:focus {
+    color: inherit;
+    padding: 10px 10px 10px 5px !important;
+    display: block;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background: transparent;
+    margin-bottom: 0;
+    height: 50px;
+
+}
+.kinput[type=text]:hover {
+    height: 50px;
+  }
+
+.mybutton {
+    background:url(/img/smile.ico) no-repeat;
+    background-size:70%;
+    background-position:center;
+    cursor:pointer;
+    color:transparent;
+    width: 45px;
+    height: 45px;
+    border: none;
+}
+.ktopline{
+    border:none;
+    border-top: 1px solid #9e9e9e;
+}
+
+/* Socialmedia icon */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    opacity:0.4;
+    color:white;
+  }
+  
+  .fa:hover {
+      opacity: 0.99;
+      color:red;
+  }
+/*   
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  } */
+.mkt-text3{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
