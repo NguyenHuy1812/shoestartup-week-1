@@ -1,9 +1,14 @@
 /* // Navbar CSS// */
+
+
 #r-navbar-h {
     height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .r-logo {
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -12,43 +17,53 @@
 .r-logo-img {
     margin-top: 10px;
 }
-
 .gender-style {
     font-size: 25px;
-}
-#r-navbar-h {
-    display: flex;
-    justify-content: center;
-}
-.navbar-fixed-top {
-  top: -30px;
-}
-.navbar-fixed-top .navbar-fixed-bottom {
-  position: relative;
 }
 nav li {
     padding: 20px;
 }
-.dropdownMenu {
+.dropdown-menu {
     display: none;
     position: relative;
 }
-.dropdownMenu a:hover {
-    background-color: black;
-    color: transparent;
+.mid-font {
+  font-size: 25px;
+  color: rgba(0,0,0,.5);
 }
-.center-menu:hover .dropdownMenu {
+/* Left Nav bar */
+
+
+.dropdown-menu a:hover {
+    background-color: grey;
+}
+.center-menu:hover .dropdown-menu {
     display: block;
 }
 .center-menu:hover .menu-button {
     background-color: transparent;
 }
-.center-menu:hover .dropdownMenu {
-    display: block;
+.center-menu:hover .dropdown-menu {
+    display: flex;
 }
 .center-menu:hover .menu-button {
     background-color: transparent;
+
+/* Left Nav bar */
+
+/* Right Nav bar */
 }
+.center-menu1:hover .dropdown-menu {
+  display: block;
+}
+.center-menu1:hover .menu-button {
+  background-color: transparent;
+}
+.center-menu1:hover .dropdown-menu {
+  display: flex;
+}
+/* Right Nav bar */
+
 /* // Navbar CSS // */
 
 
@@ -368,5 +383,6 @@ li.kresize {
 .containerfix{
   display:flex;
   width:100%;
-  justify-content:space-between;
+  justify-content:space-around;
+  height: 4em;
 }
