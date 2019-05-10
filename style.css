@@ -1,3 +1,4 @@
+// Navbar CSS//
 #r-navbar-h {
     height: 100%;
 }
@@ -14,8 +15,13 @@
 }
 #r-navbar-h {
     display: flex;
-    justify-content: space-between;
-    flex-direction: ;
+    justify-content: center;
+}
+.left-menu {
+    width: 20em;
+}
+nav li {
+    padding: 20px;
 }
 .dropdownMenu {
     display: none;
@@ -37,6 +43,9 @@
 .right-menu:hover .menu-button {
     background-color: transparent;
 }
+// Navbar CSS //
+
+
 .mkt-middle {
     display: flex;
     justify-content: center;
