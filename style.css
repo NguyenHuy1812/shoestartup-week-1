@@ -97,18 +97,15 @@
 }
 .mkt-text2{
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    height: auto;
-    min-height:370px;
-    background-color: #212121;
-    /* position: absolute;
-    left: 0;
-    right: 0; */
-    width: 100%;
-    color: red;
-    padding-bottom: 50px;
+ 
+}
+.mkt-text3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .footer2 {
@@ -339,8 +336,4 @@ li.kresize {
     background: #ff6600;
     color: white;
   } */
-.mkt-text3{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
+
