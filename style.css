@@ -43,12 +43,21 @@
 }
 /* Navbar CSS */
 
-
+/*Middle*/
+.section1 {
+    
+    height: 100vh;
+   
+}
 .mkt-middle {
     display: flex;
     justify-content: center;
+    width: 80%;
 }
-
+.section2{
+    width: 50%;
+    height: 30%;
+}
 .kfooter {
     background-color: white;
     color: red;
@@ -88,7 +97,13 @@
     width: auto;
     height: 100%;
     /* Magic! */
-    max-height:  38vw;
+    max-height:  40vh;
+    justify-content: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  
+  
 }
 .mkt-middle{
     margin-top: 30px;
@@ -110,6 +125,10 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+.divide{
+    color: red;
 }
 
 .footer2 {
