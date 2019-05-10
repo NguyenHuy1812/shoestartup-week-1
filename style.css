@@ -118,7 +118,7 @@ nav li {
     width: auto;
     height: 100%;
     /* Magic! */
-    max-height:  40vh;
+    max-height:  43vh;
     justify-content: center;
     display: flex;
     margin-right: auto;
