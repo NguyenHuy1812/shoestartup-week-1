@@ -1,26 +1,11 @@
-<<<<<<< HEAD
-#r-navbar-h {
-    height: 100%;
+.hideit{
+    display: none !important;
 }
-.r-logo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.r-logo-img {
-    margin-top: 5px;
-}
-.gender-style {
-    font-size: 25px;
-=======
-.mkt-middle{
-    display: flex;
-    justify-content: center;
->>>>>>> b805dbea91a4b7dc2a6f2e9a16c14c41391b485e
-}
-.mkt-img{
-    width: auto;
-    height: 100%;
-    /* Magic! */
-    max-height:  35vw;
+
+#mkground{
+width: 10px;
+height: 10px;
+border: 1px solid #fff;
+border-radius: 10px;
+margin: 0 7px;
 }
