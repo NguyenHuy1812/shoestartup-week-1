@@ -18,18 +18,16 @@
 }
 #r-navbar-h {
     display: flex;
-<<<<<<< HEAD
     justify-content: center;
 }
-.left-menu {
-    width: 20em;
+.navbar-fixed-top {
+  top: -30px;
+}
+.navbar-fixed-top .navbar-fixed-bottom {
+  position: relative;
 }
 nav li {
     padding: 20px;
-=======
-    justify-content: space-between;
-    /* flex-direction:row ; */
->>>>>>> 47cb4d92357de5dd06e08116dbacc8d5e373a1d3
 }
 .dropdownMenu {
     display: none;
@@ -39,16 +37,16 @@ nav li {
     background-color: black;
     color: transparent;
 }
-.left-menu:hover .dropdownMenu {
+.center-menu:hover .dropdownMenu {
     display: block;
 }
-.left-menu:hover .menu-button {
+.center-menu:hover .menu-button {
     background-color: transparent;
 }
-.right-menu:hover .dropdownMenu {
+.center-menu:hover .dropdownMenu {
     display: block;
 }
-.right-menu:hover .menu-button {
+.center-menu:hover .menu-button {
     background-color: transparent;
 }
 // Navbar CSS //
@@ -241,6 +239,22 @@ li.kresize {
   }
   
   .fa:hover {
+      opacity: 0.99;
+      color:red;
+  }
+  .r-fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    opacity:0.4;
+    color: black;
+  }
+  
+  .r-fa:hover {
       opacity: 0.99;
       color:red;
   }
