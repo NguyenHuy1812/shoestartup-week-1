@@ -197,7 +197,7 @@ nav li {
     margin: 0;
     padding: 10px 20px 0 0;
     font-size: 13px;
-    height: 180px;
+    height: 160px;
 
 }
 
@@ -264,7 +264,6 @@ ul#copyrightcontent {
     list-style: none;
     display: inline;
     justify-content: space-between;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 13px;
     padding-top:0;
     padding-left:0px;
@@ -507,4 +506,38 @@ a#footerlink:hover{
     border: 1px solid #fff;
     border-radius: 10px;
     margin: 0 7px;
+}
+
+.gototop {
+  display: flex;
+  justify-content:flex-end;
+  position: sticky; /* Fixed/sticky position */
+  padding-left:10px;
+
+  bottom: 20px; 
+  right: 50px;
+  z-index: 99; /* Make sure it does not overlap */
+  width:50px;
+
+}
+
+.gototop:hover {
+  /* cursor: pointer; Add a mouse pointer on hover */
+
+}    
+
+.backtotop {
+  position: fixed;
+  float: right;
+  right: 30px;
+  bottom:50px;
+  height:50px;
+
+  color: white;
+
+
+}
+/*On Hover Color Change*/
+.backtotop:hover {
+  
 }
