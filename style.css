@@ -519,12 +519,16 @@ a#footerlink:hover {
 .fixtop {
     position: fixed;
     top: 0;
-    height: 140px;
+    height: 150px;
     z-index: 1000;
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 255, 255, 0.5);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.5));
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.1));
+}
+
+.fixtop:hover{
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .container-fluid {
@@ -540,13 +544,14 @@ a#footerlink:hover {
     text-decoration: none;
     height: auto;
     padding:0;
+    margin-top:-10px;
     
 
 }
 
 #menu li {
     background-color: none;
-    padding: 20px;
+    padding: 30px;
     height: 40px;
     list-style: none;
     line-height: auto;
@@ -558,7 +563,7 @@ a#footerlink:hover {
 #menu li:hover{
   color:red;
 }
-  
+#menu ul {padding-bottom:-10px;}
 
 #menu li>ul {
     display: none;
@@ -579,10 +584,13 @@ a#footerlink:hover {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
-    top: 41px;
+    top: 40px;
+    margin-bottom:10px;
+    margin-top:10px;
+
     left: 0%;
     right: 0%;
-    padding:10px;
+    padding-bottom:20px;
     width: 100%;
     flex-wrap:wrap;
   }
