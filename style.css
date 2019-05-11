@@ -15,51 +15,64 @@
 .r-logo-img {
     margin-top: 10px;
 }
+
 .gender-style {
     font-size: 25px;
 }
+
 nav li {
     padding: 20px;
 }
+
 .dropdown-menu {
     display: none;
     position: relative;
 }
+
 .mid-font {
-  font-size: 25px;
-  color: grey;
+    font-size: 25px;
+    color: grey;
 }
+
 /* Left Nav bar */
 
 
 .dropdown-menu a:hover {
     background-color: grey;
 }
+
 .center-menu:hover .dropdown-menu {
     display: block;
 }
+
 .center-menu:hover .menu-button {
     background-color: transparent;
 }
+
 .center-menu:hover .dropdown-menu {
     display: flex;
 }
+
 .center-menu:hover .menu-button {
     background-color: transparent;
 
-/* Left Nav bar */
+    /* Left Nav bar */
 
-/* Right Nav bar */
+    /* Right Nav bar */
 }
+
 .center-menu1:hover .dropdown-menu {
-  display: block;
+    display: block;
 }
+
 .center-menu1:hover .menu-button {
-  background-color: transparent;
+    background-color: transparent;
 }
+
 .center-menu1:hover .dropdown-menu {
-  display: flex;
+    display: flex;
 }
+
 /* Right Nav bar */
 
 /* // Navbar CSS // */
@@ -67,19 +80,22 @@ nav li {
 
 /*Middle*/
 .section1 {
-    
+
     height: 100vh;
-   
+
 }
+
 .mkt-middle {
     display: flex;
     justify-content: center;
     width: 80%;
 }
-.section2{
+
+.section2 {
     width: 50%;
     height: 30%;
 }
+
 .kfooter {
     background-color: white;
     color: red;
@@ -101,58 +117,63 @@ nav li {
 }
 
 .footer1 {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: auto;
-  background-color: #212121;
-  left: 0;
-  right: 0;
-  width: 100%;
-  color: red;
-  /* padding-bottom: 10px; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #212121;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: red;
+    /* padding-bottom: 10px; */
 }
 
-.mkt-img{
+.mkt-img {
     width: auto;
     height: 100%;
     /* Magic! */
-    max-height:  43vh;
+    max-height: 43vh;
     justify-content: center;
     display: flex;
     margin-right: auto;
     margin-left: auto;
-  
-  
+
+
 }
-.mkt-middle{
+
+.mkt-middle {
     margin-top: 30px;
     justify-content: center;
 }
+
 /* this line should cover all page background-color, add to global later*/
-.background-cover{
-  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEf2Cy1LoVlK8DS5nXKuWcp-Rj7kGvHmRHvFrRotINDenO2D0H"  ) */
-    
+.background-cover {
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEf2Cy1LoVlK8DS5nXKuWcp-Rj7kGvHmRHvFrRotINDenO2D0H"  ) */
+
     display: cover;
 }
-.newColorBody{
-  background-color: rgb(250, 250, 226);
+
+.newColorBody {
+    background-color: rgb(250, 250, 226);
 }
-.mkt-text2{
+
+.mkt-text2 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
- 
+
 }
-.mkt-text3{
+
+.mkt-text3 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.divide{
+.divide {
     color: red;
 }
 
@@ -163,7 +184,6 @@ nav li {
     flex-wrap: wrap;
     height: auto;
     background-color: #212121;
-    position: absolute;
     left: 0;
     right: 0;
     width: 100%;
@@ -186,7 +206,7 @@ nav li {
 }
 
 li.kresize {
- text-decoration:none !important;
+    text-decoration: none !important;
     padding: inherit;
 }
 
@@ -208,8 +228,8 @@ li.kresize {
 .kfl {
     max-width: 450px;
     vertical-align: top;
-    min-width:250px;
-    padding-top:.5em
+    min-width: 250px;
+    padding-top: .5em
 }
 
 .kinput {
@@ -224,10 +244,49 @@ li.kresize {
     height: 36px;
     /* -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out; */
-    -webkit-transition-property: height; /* Safari */
-    -webkit-transition-duration: 1s; /* Safari */
+    -webkit-transition-property: height;
+    /* Safari */
+    -webkit-transition-duration: 1s;
+    /* Safari */
     transition-property: height;
     transition-duration: 1s;
+}
+
+.copyrightcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+  }
+
+ul#copyrightcontent {
+    color: #9e9e9e;
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    padding-top:0;
+    padding-left:0px;
+    
+}
+
+ul#copyrightcontent li {
+    display: inline;
+    list-style: none;
+    justify-content: space-between;
+    color: #9e9e9e;
+
+}
+
+a#footerlink{
+  text-decoration:none;
+  color:inherit;
+}
+
+a#footerlink:hover{
+  text-decoration:none;
+  color:red;
 }
 
 .kinput[type=text]:focus {
@@ -242,23 +301,52 @@ li.kresize {
     height: 50px;
 
 }
+
 .kinput[type=text]:hover {
     height: 50px;
-  }
+}
 
 .mybutton {
-    background:url(/img/smile.ico) no-repeat;
-    background-size:70%;
-    background-position:center;
-    cursor:pointer;
-    color:transparent;
+    background: url(/img/happy.svg) no-repeat;
+    background-size: 70%;
+    background-position: center;
+    cursor: pointer;
+    color: transparent;
     width: 45px;
     height: 45px;
     border: none;
 }
-.ktopline{
-    border:none;
-    border-top: 1px solid #9e9e9e;
+
+.mybutton:hover {
+  background: url(/img/in-love.svg) no-repeat;
+  background-size: 70%;
+  background-position: center;
+  cursor: pointer;
+  color: transparent;
+  width: 45px;
+  height: 45px;
+  border: none;
+}
+.mybutton:focus {
+  background: url(/img/in-love.svg) no-repeat;
+  background-size: 70%;
+  background-position: center;
+  cursor: pointer;
+  color: transparent;
+  width: 45px;
+  height: 45px;
+  border: none;
+}
+
+
+
+.ktopline {
+    
+  border: none;
+    /* border-top: 1px solid #9e9e9e; */
+    width:100%;
+    margin:0;
+    padding:0;
 }
 
 /* Socialmedia icon */
@@ -270,15 +358,16 @@ li.kresize {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-    opacity:0.4;
-    color:white;
-  }
-  
-  .fa:hover {
-      opacity: 0.99;
-      color:red;
-  }
-  .r-fa {
+    opacity: 0.4;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.99;
+    color: red;
+}
+
+.r-fa {
     padding: 10px;
     font-size: 20px;
     width: 50px;
@@ -286,14 +375,15 @@ li.kresize {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-    opacity:0.4;
+    opacity: 0.4;
     color: black;
-  }
-  
-  .r-fa:hover {
-      opacity: 0.99;
-      color:red;
-  }
+}
+
+.r-fa:hover {
+    opacity: 0.99;
+    color: red;
+}
+
 /*   
   .fa-facebook {
     background: #3B5998;
@@ -401,19 +491,20 @@ li.kresize {
     color: white;
   } */
 
-.containerfix{
-  display:flex;
-  width:100%;
-  justify-content:space-around;
-  height: 4em;
+.containerfix {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 4em;
 }
+
 /*this code make the navigation come to circle*/
 
 
-#mkground{
-width: 5px;
-height: 5px;
-border: 1px solid #fff;
-border-radius: 10px;
-margin: 0 7px;
+#mkground {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 7px;
 }
