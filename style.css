@@ -301,7 +301,16 @@ a#footerlink:hover {
     height: 50px;
 }
 
-.mybutton {
+.kinput:focus + #mybutton { 
+    background: url(/img/in-love.svg) no-repeat;
+    height:45px;
+}
+.kinput:hover + #mybutton { 
+    background: url(/img/in-love.svg) no-repeat;
+    height:45px;
+}
+
+#mybutton {
     background: url(/img/happy.svg) no-repeat;
     background-size: 70%;
     background-position: center;
@@ -312,7 +321,7 @@ a#footerlink:hover {
     border: none;
 }
 
-.mybutton:hover {
+#mybutton:hover {
     background: url(/img/in-love.svg) no-repeat;
     background-size: 70%;
     background-position: center;
@@ -323,7 +332,7 @@ a#footerlink:hover {
     border: none;
 }
 
-.mybutton:focus {
+#mybutton:focus {
     background: url(/img/in-love.svg) no-repeat;
     background-size: 70%;
     background-position: center;
