@@ -242,12 +242,8 @@ li.kresize {
     background: transparent;
     margin-bottom: 0;
     height: 36px;
-    /* -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out; */
     -webkit-transition-property: height;
-    /* Safari */
     -webkit-transition-duration: 1s;
-    /* Safari */
     transition-property: height;
     transition-duration: 1s;
 }
@@ -256,8 +252,8 @@ li.kresize {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
-  }
+
+}
 
 ul#copyrightcontent {
     color: #9e9e9e;
@@ -265,9 +261,9 @@ ul#copyrightcontent {
     display: inline;
     justify-content: space-between;
     font-size: 13px;
-    padding-top:0;
-    padding-left:0px;
-    
+    padding-top: 0;
+    padding-left: 0px;
+
 }
 
 ul#copyrightcontent li {
@@ -278,14 +274,14 @@ ul#copyrightcontent li {
 
 }
 
-a#footerlink{
-  text-decoration:none;
-  color:inherit;
+a#footerlink {
+    text-decoration: none;
+    color: inherit;
 }
 
-a#footerlink:hover{
-  text-decoration:none;
-  color:red;
+a#footerlink:hover {
+    text-decoration: none;
+    color: red;
 }
 
 .kinput[type=text]:focus {
@@ -317,35 +313,36 @@ a#footerlink:hover{
 }
 
 .mybutton:hover {
-  background: url(/img/in-love.svg) no-repeat;
-  background-size: 70%;
-  background-position: center;
-  cursor: pointer;
-  color: transparent;
-  width: 45px;
-  height: 45px;
-  border: none;
+    background: url(/img/in-love.svg) no-repeat;
+    background-size: 70%;
+    background-position: center;
+    cursor: pointer;
+    color: transparent;
+    width: 45px;
+    height: 45px;
+    border: none;
 }
+
 .mybutton:focus {
-  background: url(/img/in-love.svg) no-repeat;
-  background-size: 70%;
-  background-position: center;
-  cursor: pointer;
-  color: transparent;
-  width: 45px;
-  height: 45px;
-  border: none;
+    background: url(/img/in-love.svg) no-repeat;
+    background-size: 70%;
+    background-position: center;
+    cursor: pointer;
+    color: transparent;
+    width: 45px;
+    height: 45px;
+    border: none;
 }
 
 
 
 .ktopline {
-    
-  border: none;
+
+    border: none;
     /* border-top: 1px solid #9e9e9e; */
-    width:100%;
-    margin:0;
-    padding:0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Socialmedia icon */
@@ -509,13 +506,139 @@ a#footerlink:hover{
 }
 
 .backtotop {
-  position: fixed;
-  float: right;
-  right: 30px;
-  bottom:50px;
-  height:50px;
-  color: white;
+    position: fixed;
+    float: right;
+    right: 30px;
+    bottom: 50px;
+    height: 30px;
+    color: white;
+    z-index: 99;
 }
-.backtotop:hover {
+
+/* START OF KHOA TEST NAV */
+.fixtop {
+    position: fixed;
+    top: 0;
+    height: 140px;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.5));
+}
+
+.container-fluid {
+    background-color: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu {
+    position: relative;
+    background-color: none;
+    text-decoration: none;
+    height: auto;
+    padding:0;
+    
+
+}
+
+#menu li {
+    background-color: none;
+    padding: 20px;
+    height: 40px;
+    list-style: none;
+    line-height: auto;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu li:hover{
+  color:red;
+}
   
+
+#menu li>ul {
+    display: none;
 }
+
+/* #menu > ul > li {
+  border: 2px solid white;
+} */
+/* #menu > ul > li:hover {
+  border: 2px solid black;
+
+} */
+
+#menu li:hover>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    top: 41px;
+    left: 0%;
+    right: 0%;
+    padding:10px;
+    width: 100%;
+    flex-wrap:wrap;
+  }
+
+#menu li ul li {
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    text-align: center;
+    align-items: center;
+
+}
+
+.knavmenu {
+    display: flex;
+    height: auto;
+    background-color: none;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    z-index:100;
+
+}
+
+.klogo {
+    display: block;
+    text-align: center;
+}
+
+.k-fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  opacity: 1;
+  color: black !important;
+}
+
+.k-fa:hover {
+  opacity: 0.99;
+  color: red !important;
+}
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+/* End OF KHOA TEST NAV */
