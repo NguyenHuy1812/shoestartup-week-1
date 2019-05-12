@@ -1,19 +1,26 @@
 /* Navbar CSS*/
 #r-navbar-h {
-    height: 100%;
-    display: flex;
-    justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: linear-gradient(to bottom, #333231 0%, rgba(37,33,30,0) 100%);
+  border-radius: 0;
+  border: 0;
 }
-
-.r-logo {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+#r-navbar-h:hover {
+  background-color: black;
 }
-
+.nav-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+.nav-link {
+  color: white;
+}
 .r-logo-img {
     margin-top: 10px;
+    margin: 0 auto;
 }
 
 .gender-style {
@@ -36,7 +43,9 @@ nav li {
 
 /* Left Nav bar */
 
-
+.show {
+  display: flex !important;
+}
 .dropdown-menu a:hover {
     background-color: grey;
 }
@@ -76,7 +85,13 @@ nav li {
 /* Right Nav bar */
 
 /* // Navbar CSS // */
-
+/* Dropdown box */
+.cust-drop {
+  background-color: black;
+}
+.cust-drop a{
+  color: white;
+}
 
 
 .kfooter {
