@@ -15,12 +15,14 @@
 
 <body class="newColorBody">
   <!-- START OF KHOA TEST NAV -->
-  <div class="container-fluid fixtop" style="height: 150">
-    <div class="klogo">
-      <img src="img/whitetoplogo.png">
-    </div>
-    <div class="container" id="menu">
-      <div id="content-desktop">
+  <div id="content-desktop">
+    <div class="container-fluid fixtop">
+      <!-- start of desktop -->
+
+      <div class="klogo">
+        <img src="img/whitetoplogo.png">
+      </div>
+      <div class="container" id="menu">
         <div class="knavmenu">
           <ul>
             <li>Men
@@ -61,9 +63,35 @@
             </li>
           </ul>
         </div>
-      </div>
 
-      <div id="content-mobile">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- end of desktop -->
+        <!-- start of mobile -->
+
+        <!-- end of mobile -->
+      </div>
+    </div> <!-- end of fixtop -->
+  </div>
+
+
+  <div id="content-mobile">
+    <div class="container-fluid fixtop1">
+      <div class="klogo">
+        <!-- <img src="img/whitetoplogo.png"> -->
+      </div>
+      <div class="container" id="menu1">
         <div class="knavmenu">
           <ul>
             <li>Men
@@ -76,6 +104,11 @@
               </ul>
             </li>
           </ul>
+
+<!-- for mobile logo -->
+<ul><img src="img/whitetoplogo.png" style="height:50px"></ul>
+
+<!-- end of mobile logo -->
           <ul>
 
             <li>Women
@@ -85,24 +118,86 @@
                 <li>Tops</li>
                 <li>Bottoms</li>
                 <li>Sandals</li>
+
               </ul>
             </li>
           </ul>
         </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- end of desktop -->
+        <!-- start of mobile -->
+
+        <!-- end of mobile -->
       </div>
     </div>
   </div>
 
 
+
+
+
   <!-- END OF KHOA TEST NAV -->
+  <!-- save for later use -->
+  <!-- <div id="content-mobile">
+    <div class="knavmenu">
+      <ul>
+        <li>Men
+          <ul>
+            <li>Collections</li>
+            <li>Suits</li>
+            <li>Tops</li>
+            <li>Bottoms</li>
+            <li>Shoes</li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+
+        <li>Women
+          <ul>
+            <li>Collections</li>
+            <li>Dresses</li>
+            <li>Tops</li>
+            <li>Bottoms</li>
+            <li>Sandals</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </div> -->
+
+  <!-- end save -->
+
+
+
+
+
+
+
+
+
 
   <!-- Body feature-->
 
   <!-- HUY JOB HERE -->
 
-  <div class="background-cover cover row">
-      <div class="bd-example hero-img sec1">
+  <div class="background-cover section1">
+    <div class=hero-img>
+      <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade mx-auto" data-ride="carousel">
           <ol class="carousel-indicators">
             <li id="mkground" data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -112,7 +207,7 @@
             <li id="mkground" data-target="#carouselExampleCaptions" data-slide-to="4"></li>
           </ol>
 
-          <div class="carousel-inner silde-img section1" style=" 
+          <div class="carousel-inner silde-img" style=" 
           display:flex" rold="listbox">
             <div class="carousel-item active ">
               <img src="//theme.hstatic.net/1000247297/1000419458/14/slideshow_1.jpg?v=2219" class=" w-100 mkt-img"
@@ -167,13 +262,14 @@
           </a>
         </div>
       </div>
-    <div class="container mkt-middle sec2">
+    </div>
+    <div class="container mkt-middle">
       <!-- Make 2 column of Marketing section-->
-      <div class= "row section2">
+      <div class="row section2">
         <div class="col-md-6">
           <div class="thumbnail">
             <a href="img/marketing 3.jpg">
-              <img class="mkt-img2" src="img/marketing 3.jpg" alt="Lights">
+              <img class="mkt-img" src="img/marketing 3.jpg" alt="Lights" style="width:100%;">
               <div class="caption mkt-text2">
                 <p class="text-black-50">WOMEN</p>
               </div>
@@ -183,16 +279,15 @@
         <div class="col-md-6 mkt-text2">
           <div class="thumbnail">
             <a href="img/marketing 2.jpg">
-              <img class="mkt-img2" src="img/marketing 2.jpg" alt="Lights" >
+              <img class="mkt-img" src="img/marketing 2.jpg" alt="Lights" style="width:100%;">
               <div class="caption mkt-text2">
                 <p class="text-black-50">MEN</p>
               </div>
             </a>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- <div class="col-md-6">
+
+        <!-- <div class="col-md-6">
               <div class="thumbnail">
                 <a href="">
                   <div class="caption mkt-text3" >
@@ -210,281 +305,283 @@
                 </a>
               </div>
             </div> -->
-    <div class="d-flex justify-content-around w-100 text-black-50 sec3 ">
-      <div class="p-2 bd-highlight rounded-pill"><a class="text-bold text-black-50" href="#">MEN</a></div>
-      <div class="p-2 bd-highlight rounded-pill text-center"><a class="text-black-50" href="#">NEW COMING</a></div>
-      <div class="p-2 bd-highlight rounded-pill"><a class="text-black-50" href="#">WOMEN</a></div>
-    </div>
-  </div>
-
-
-  <!--HUY END CODING HERE-->
-
-
-
-  <!--this is Henry Work, PLz leave it as it is-->
-  <!-----HENRY AND KHOA----->
-  <section class="container mt-5">
-    <!-- div of HENRY-->
-
-    <!-- add 1st bar-->
-    <div class="container">
-      <h3> Best selling still need fomat this </h3>
-      <div class="card-deck mt-3">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-              additional
-              content. This content is a little bit longer.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-              content.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional
-              content. This card has even longer content than the first to show that equal height action.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-              additional
-              content. This content is a little bit longer.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-              additional
-              content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- add 2nd bar-->
-    <div class="container mt-4">
-      <h3> Best selling still need fomat this </h3>
-      <div class="card-deck mt-3">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-              additional
-              content. This content is a little bit longer.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-              content.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional
-              content. This card has even longer content than the first to show that equal height action.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-              additional
-              content. This content is a little bit longer.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-              additional
-              content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- add 3rd bar-->
-    <div class="container mt-4">
-      <h3> Best selling still need fomat this </h3>
-      <div class="card-deck mt-3">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-              additional
-              content. This content is a little bit longer.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-              content.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional
-              content. This card has even longer content than the first to show that equal height action.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-              additional
-              content. This content is a little bit longer.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-              additional
-              content. This content is a little bit longer.</p>
-          </div>
+        <div class="d-flex justify-content-around w-100 text-black-50">
+          <div class="p-2 bd-highlight rounded-pill"><a class="text-bold text-black-50" href="#">MEN</a></div>
+          <div class="p-2 bd-highlight rounded-pill text-center"><a class="text-black-50" href="#">NEW COMING</a></div>
+          <div class="p-2 bd-highlight rounded-pill"><a class="text-black-50" href="#">WOMEN</a></div>
         </div>
       </div>
     </div>
 
-    <!-- KHOA -->
-    <!--Footer-->
-    <footer class="container mt-5">
-      <div class="footer container-fluid">
-        <div class="footer1 container-fluid" style="padding-bottom:50px">
-          <div class="container">
-            <div class="navbar navbar-expand-lg navbar-light"
-              style="display:inline-flexbox;justify-content:space-between">
-              <div class="kfl">
-                <img src="img/botlogo.png" style="padding-left:20%">
-                <ul class="footerul">
-                  <li>VyVy is made by fashion lovers and for fashion lovers. At VyVy, our design team will always come
-                    up
-                    with new designs and a various range of outfits that will make you a Fashionista/Fashionisto. Your
-                    satisfaction is our success.
-                  </li>
-                  <li><i class="fa fa-envelope-o" style="font-size:10px;margin-bottom:-30px"></i>sales@vyvy.vn</li>
-                  <li><i class="fa fa-phone" style="font-size:10px;margin-bottom:-40px"></i>(84) 000 000 0000</li>
-                  <li><i class="fa fa-clock-o" style="font-size:10px;margin-bottom:-40px"></i>Open hours 09:00 - 18:00
-                  </li>
-                </ul>
-              </div>
+    <hr class="devide" />
 
-              <div class="kfl" style="padding-top:50px">
-                <h class="footer-heading" style="margin-left:20px">USEFUL LINKS</h>
-                <ul class="footerul" style="margin-left:20px">
-                  <li><a id="footerlink" href="#">About US</a></li>
-                  <li><a id="footerlink" href="#">FAQ</a></li>
-                  <li><a id="footerlink" href="#">Contact Us</a></li>
-                  <li><a id="footerlink" href="#">Store locator</a></li>
-                  <li><a id="footerlink" href="#">Payment</a></li>
-                  <li><a id="footerlink" href="#">Shipping</a></li>
-                  <li><a id="footerlink" href="#">Privacy</a></li>
-                  <li><a id="footerlink" href="#">Refund policy</a></li>
-                  <li><a id="footerlink" href="#">Size guide</a></li>
-                </ul>
-              </div>
-              <div class="kfl" style="padding-top:50px">
-                <h class="footer-heading">SUBSCRIBE</h>
-                <ul class="footerul">
-                  <li>
-                    <form class="form-inline">
+    <!--HUY END CODING HERE-->
 
-                      <label class="sr-only" for="inlineFormInputName2">Name</label>
-                      <input type="text" class="form-control mb-2 mr-sm-2 kinput" id="inlineFormInputName2"
-                        placeholder="Your E-mail address.">
 
-                      <input type="submit" id="mybutton"></input>
-                    </form>
-                  </li>
-                  <li>Subscribe to let us keep you up-to-date with our latest fashion trends</li>
-                  <li>Follow us on:</li>
-                  <li><a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-youtube"></a></li>
-                </ul>
+
+    <!--this is Henry Work, PLz leave it as it is-->
+    <!-----HENRY AND KHOA----->
+    <section class="container mt-5">
+      <!-- div of HENRY-->
+
+      <!-- add 1st bar-->
+      <div class="container">
+        <h3> Best selling still need fomat this </h3>
+        <div class="card-deck mt-3">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional
+                content. This card has even longer content than the first to show that equal height action.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- add 2nd bar-->
+      <div class="container mt-4">
+        <h3> Best selling still need fomat this </h3>
+        <div class="card-deck mt-3">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional
+                content. This card has even longer content than the first to show that equal height action.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- add 3rd bar-->
+      <div class="container mt-4">
+        <h3> Best selling still need fomat this </h3>
+        <div class="card-deck mt-3">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional
+                content. This card has even longer content than the first to show that equal height action.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KHOA -->
+      <!--Footer-->
+      <footer class="container mt-5">
+        <div class="footer container-fluid">
+          <div class="footer1 container-fluid" style="padding-bottom:50px">
+            <div class="container">
+              <div class="navbar navbar-expand-lg navbar-light"
+                style="display:inline-flexbox;justify-content:space-between">
+                <div class="kfl">
+                  <img src="img/botlogo.png" style="padding-left:20%">
+                  <ul class="footerul">
+                    <li>VyVy is made by fashion lovers and for fashion lovers. At VyVy, our design team will always come
+                      up
+                      with new designs and a various range of outfits that will make you a Fashionista/Fashionisto. Your
+                      satisfaction is our success.
+                    </li>
+                    <li><i class="fa fa-envelope-o" style="font-size:10px;margin-bottom:-30px"></i>sales@vyvy.vn</li>
+                    <li><i class="fa fa-phone" style="font-size:10px;margin-bottom:-40px"></i>(84) 000 000 0000</li>
+                    <li><i class="fa fa-clock-o" style="font-size:10px;margin-bottom:-40px"></i>Open hours 09:00 - 18:00
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="kfl" style="padding-top:50px">
+                  <h class="footer-heading" style="margin-left:20px">USEFUL LINKS</h>
+                  <ul class="footerul" style="margin-left:20px">
+                    <li><a id="footerlink" href="#">About US</a></li>
+                    <li><a id="footerlink" href="#">FAQ</a></li>
+                    <li><a id="footerlink" href="#">Contact Us</a></li>
+                    <li><a id="footerlink" href="#">Store locator</a></li>
+                    <li><a id="footerlink" href="#">Payment</a></li>
+                    <li><a id="footerlink" href="#">Shipping</a></li>
+                    <li><a id="footerlink" href="#">Privacy</a></li>
+                    <li><a id="footerlink" href="#">Refund policy</a></li>
+                    <li><a id="footerlink" href="#">Size guide</a></li>
+                  </ul>
+                </div>
+                <div class="kfl" style="padding-top:50px">
+                  <h class="footer-heading">SUBSCRIBE</h>
+                  <ul class="footerul">
+                    <li>
+                      <form class="form-inline">
+
+                        <label class="sr-only" for="inlineFormInputName2">Name</label>
+                        <input type="text" class="form-control mb-2 mr-sm-2 kinput" id="inlineFormInputName2"
+                          placeholder="Your E-mail address.">
+
+                        <input type="submit" id="mybutton"></input>
+                      </form>
+                    </li>
+                    <li>Subscribe to let us keep you up-to-date with our latest fashion trends</li>
+                    <li>Follow us on:</li>
+                    <li><a href="#" class="fa fa-facebook"></a>
+                      <a href="#" class="fa fa-twitter"></a>
+                      <a href="#" class="fa fa-google"></a>
+                      <a href="#" class="fa fa-instagram"></a>
+                      <a href="#" class="fa fa-youtube"></a></li>
+                  </ul>
+                </div>
               </div>
+            </div>
+
+          </div>
+          <!-- THIS IS TO MAKE ANOTHER FOOTER RIGHTBELOW -->
+          <div class="footer2 container-fluid ktopline">
+            <div class="container copyrightcontent">
+              <ul id="copyrightcontent">
+                <li id="copyrightcontent">© 2019 <span style="font-style:italic"> &nbspVyVy &nbsp</span> &nbsp All
+                  rights reserved</li>
+
+              </ul>
+              <ul id="copyrightcontent">
+                <li id="copyrightcontent">VAT NUMBER 01110110011011 – VN LICENCE N. XXX/X/XXX </li>
+              </ul>
             </div>
           </div>
 
+
         </div>
-        <!-- THIS IS TO MAKE ANOTHER FOOTER RIGHTBELOW -->
-        <div class="footer2 container-fluid ktopline">
-          <div class="container copyrightcontent">
-            <ul id="copyrightcontent">
-              <li id="copyrightcontent">© 2019 <span style="font-style:italic"> &nbspVyVy &nbsp</span> &nbsp All
-                rights reserved</li>
-
-            </ul>
-            <ul id="copyrightcontent">
-              <li id="copyrightcontent">VAT NUMBER 01110110011011 – VN LICENCE N. XXX/X/XXX </li>
-            </ul>
-          </div>
-        </div>
+      </footer>
 
 
-      </div>
-    </footer>
-
-
-  </section>
-  <a href="#"><img src="img/gototop.svg" class="backtotop" title="Go back to top"></i></a>
+    </section>
+    <a href="#"><img src="img/gototop.svg" class="backtotop" title="Go back to top"></i></a>
 
 
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 
 </body>
 

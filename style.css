@@ -79,27 +79,23 @@ nav li {
 
 
 /*Middle*/
-/* .mkt-middle {
+.section1 {
+
+    height: 100vh;
+
+}
+
+.mkt-middle {
     display: flex;
     justify-content: center;
-    width: 100%;
-} */
+    width: 80%;
+}
 
 .section2 {
     width: 50%;
     height: 30%;
 }
-.mkt-img2 {
-    width: 100%;
-    height: 60%; 
-    justify-content: center;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-}
-.sec2{
-    position:  relative !important;
-}
+
 .kfooter {
     background-color: white;
     color: red;
@@ -136,20 +132,28 @@ nav li {
 
 .mkt-img {
     width: auto;
-    height: 100%; 
+    height: 100%;
+    /* Magic! */
+    max-height: 43vh;
     justify-content: center;
     display: flex;
     margin-right: auto;
     margin-left: auto;
+
+
 }
 
 .mkt-middle {
-    margin-top:30px;
+    margin-top: 30px;
     justify-content: center;
-    display: flex;
 }
 
+/* this line should cover all page background-color, add to global later*/
+.background-cover {
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEf2Cy1LoVlK8DS5nXKuWcp-Rj7kGvHmRHvFrRotINDenO2D0H"  ) */
 
+    display: cover;
+}
 
 .newColorBody {
     background-color: rgb(250, 250, 226);
@@ -166,14 +170,8 @@ nav li {
 .mkt-text3 {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
-.cover{
-    width: 100%;
-    height: 100vh!important;
-    display: flex;
-}
-
 
 .divide {
     color: red;
@@ -571,6 +569,8 @@ a#footerlink:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    color:white;
+    font-weight:bold;
 }
 #menu li:hover{
   color:red;
@@ -615,6 +615,96 @@ a#footerlink:hover {
     flex-wrap:wrap;
     text-align: center;
     align-items: center;
+    color:black;
+
+}
+
+/* fixt top for mobile */
+.fixtop1 {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.1)); */
+background-color:rgba(21,21,21,0.5);
+}
+
+.fixtop1:hover{
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color:#212121;
+}
+
+/* MENU 1 for mobile */
+#menu1 {
+    position: relative;
+    background-color: none;
+    text-decoration: none;
+    height: auto;
+    padding:0;
+    margin-top:-10px;
+    
+
+}
+
+#menu1 li {
+    background-color: none;
+    padding: 30px;
+    height: 40px;
+    list-style: none;
+    line-height: auto;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight:bold;
+}
+#menu1 li:hover{
+  color:red;
+}
+#menu1 ul {padding-bottom:-10px;}
+
+#menu1 li>ul {
+    display: none;
+}
+
+/* #menu1 > ul > li {
+  border: 2px solid white;
+} */
+/* #menu1 > ul > li:hover {
+  border: 2px solid black;
+
+} */
+
+#menu1 li:hover>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    top: 40px;
+    margin-bottom:10px;
+    margin-top:10px;
+    left: 0%;
+    right: 0%;
+    padding-bottom:20px;
+    width: 100%;
+    flex-wrap:wrap;
+  }
+
+#menu1 li ul li {
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    text-align: center;
+    align-items: center;
+    color:black
 
 }
 
@@ -645,7 +735,7 @@ a#footerlink:hover {
   margin: 5px 2px;
   border-radius: 50%;
   opacity: 1;
-  color: black !important;
+  color: White !important;
 }
 
 .k-fa:hover {
