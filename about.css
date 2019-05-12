@@ -542,18 +542,18 @@
   
   /* START OF KHOA TEST NAV */
   .fixtop {
-      position: fixed;
+      position: relative;
       top: 0;
       height: 150px;
       z-index: 1000;
       margin: 0;
       padding: 0;
-      background-color: rgba(255, 255, 255, 0.1);
-      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.1));
+      background-color: rgba(21, 21, 21, 1);
+      /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.1)); */
   }
   
   .fixtop:hover{
-      background-color: rgba(255, 255, 255, 0.8);
+      /* background-color: rgba(255, 255, 255, 0.8); */
   }
   
   .container-fluid {
@@ -607,7 +607,7 @@
       justify-content: space-around;
       align-items: center;
       position: absolute;
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(21, 21, 21, 1);
       color: black;
       top: 40px;
       margin-bottom:10px;
@@ -682,7 +682,7 @@
   /* ABOUT PAGE CSS */
   .title {
       text-align: center;
-      margin-top: 200px;
+      margin-top: 40px;
   }
   .header {
       font-size: 50px;
@@ -692,7 +692,7 @@
     display:relative;
     height: 300px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 200px;
   }
   .card-body {
    text-align: center;
