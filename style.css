@@ -1,37 +1,45 @@
 /* Navbar CSS*/
 #r-navbar-h {
-    height: 100%;
-    display: flex;
-    justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: linear-gradient(to bottom, #333231 0%, rgba(37,33,30,0) 100%);
+  border-radius: 0;
+  border: 0;
 }
-
-.r-logo {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+#r-navbar-h:hover {
+  background-color: black;
 }
-
+.nav-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+.nav-link {
+  color: white;
+}
 .r-logo-img {
     margin-top: 10px;
+    margin: 0 auto;
 }
-.gender-style {
-    font-size: 25px;
+.navbar-nav {
+  display: flex;
+  justify-content: center;
 }
-nav li {
-    padding: 20px;
+.nav-item {
+  padding: 0px 40px;
 }
-.dropdown-menu {
-    display: none;
-    position: relative;
-}
-.mid-font {
-  font-size: 25px;
-  color: grey;
+/* Login and Cart */
+.log-content-container {
+  display: flex;
+  align-items: s
+
 }
 /* Left Nav bar */
 
-
+.show {
+  display: flex !important;
+}
 .dropdown-menu a:hover {
     background-color: grey;
 }
@@ -41,19 +49,15 @@ nav li {
 .center-menu:hover .menu-button {
     background-color: transparent;
 }
-.center-menu:hover .dropdown-menu {
+.center-menu:active .dropdown-menu {
     display: flex;
 }
 .center-menu:hover .menu-button {
     background-color: transparent;
-
-/* Left Nav bar */
-
-/* Right Nav bar */
 }
 .center-menu1:hover .dropdown-menu {
   display: block;
-}
+}.
 .center-menu1:hover .menu-button {
   background-color: transparent;
 }
@@ -63,7 +67,13 @@ nav li {
 /* Right Nav bar */
 
 /* // Navbar CSS // */
-
+/* Dropdown box */
+.cust-drop {
+  background-color: black;
+}
+.cust-drop a{
+  color: white;
+}
 
 /*Middle*/
 .section1 {
@@ -287,7 +297,7 @@ li.kresize {
     margin: 5px 2px;
     border-radius: 50%;
     opacity:0.4;
-    color: black;
+    color: white;
   }
   
   .r-fa:hover {
