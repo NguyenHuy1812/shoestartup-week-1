@@ -578,7 +578,7 @@ a#footerlink:hover {
 #menu li:hover{
   color:red;
 }
-#menu ul {padding-bottom:-10px;}
+#menu ul {color:white;padding-bottom:-10px;}
 
 #menu li>ul {
     display: none;
@@ -594,7 +594,7 @@ a#footerlink:hover {
 
 #menu li:hover>ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
@@ -602,11 +602,11 @@ a#footerlink:hover {
     top: 40px;
     margin-bottom:10px;
     margin-top:10px;
-
-    left: 0%;
-    right: 0%;
+    left:-20vw;
+    right:-20vw;
+    width:auto;
     padding-bottom:20px;
-    width: 100%;
+    height:auto;
     flex-wrap:wrap;
   }
 
