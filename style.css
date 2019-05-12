@@ -79,23 +79,27 @@ nav li {
 
 
 /*Middle*/
-.section1 {
-
-    height: 100vh;
-
-}
-
-.mkt-middle {
+/* .mkt-middle {
     display: flex;
     justify-content: center;
-    width: 80%;
-}
+    width: 100%;
+} */
 
 .section2 {
     width: 50%;
     height: 30%;
 }
-
+.mkt-img2 {
+    width: 100%;
+    height: 60%; 
+    justify-content: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sec2{
+    position:  relative !important;
+}
 .kfooter {
     background-color: white;
     color: red;
@@ -132,28 +136,20 @@ nav li {
 
 .mkt-img {
     width: auto;
-    height: 100%;
-    /* Magic! */
-    max-height: 43vh;
+    height: 100%; 
     justify-content: center;
     display: flex;
     margin-right: auto;
     margin-left: auto;
-
-
 }
 
 .mkt-middle {
-    margin-top: 30px;
+    margin-top:30px;
     justify-content: center;
+    display: flex;
 }
 
-/* this line should cover all page background-color, add to global later*/
-.background-cover {
-    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEf2Cy1LoVlK8DS5nXKuWcp-Rj7kGvHmRHvFrRotINDenO2D0H"  ) */
 
-    display: cover;
-}
 
 .newColorBody {
     background-color: rgb(250, 250, 226);
@@ -170,8 +166,14 @@ nav li {
 .mkt-text3 {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
+.cover{
+    width: 100%;
+    height: 100vh!important;
+    display: flex;
+}
+
 
 .divide {
     color: red;
