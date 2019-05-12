@@ -78,26 +78,6 @@ nav li {
 /* // Navbar CSS // */
 
 
-/*Middle*/
-.mkt-middle {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.section2 {
-    display: flex;
-    width: 50%;
-    height: 30%;
-}
-.mkt-img2 {
-    width: 100%;
-    height: 60%; 
-    justify-content: center;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 .kfooter {
     background-color: white;
@@ -132,55 +112,58 @@ nav li {
     color: red;
     /* padding-bottom: 10px; */
 }
+.newColorBody {
+    background-color: rgb(250, 250, 226);
+}
+/*Middle*/
+.mkt{
+    height: 100vh;
+}
+.sec1{
+    height: 80vh;
+    width: 100%;
+}
+.sec2{
+    height: 10vh;
+    width: 100%;
+}
 
-.mkt-img {
+.hero-img{
+    width:100%
+}
+.mkt-img2 {
     width: auto;
-    height: 100%; 
+    height: 60%;
+    /* Magic! */
+    max-height: 15vh;
     justify-content: center;
     display: flex;
     margin-right: auto;
     margin-left: auto;
 }
-
-.mkt-middle {
-    margin-top:30px;
+.mkt-img {
+    width: 100%;
+    height: 80vh;
+    /* Magic! */
+    max-height: 80vh;
+    
     justify-content: center;
     display: flex;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-
-
-.newColorBody {
-    background-color: rgb(250, 250, 226);
-}
-
 .mkt-text2 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
 }
-
 .mkt-text3 {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-.cover{
-    width: 100%;
-    height: 100vh!important;
-    display: 
-}
-.sec1{
-    width: 100%;
-    height:
-}
 
-
-.divide {
-    color: red;
-}
 
 .footer2 {
     display: flex;
@@ -574,6 +557,8 @@ a#footerlink:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    color:white;
+    font-weight:bold;
 }
 #menu li:hover{
   color:red;
@@ -618,6 +603,96 @@ a#footerlink:hover {
     flex-wrap:wrap;
     text-align: center;
     align-items: center;
+    color:black;
+
+}
+
+/* fixt top for mobile */
+.fixtop1 {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.1)); */
+background-color:rgba(21,21,21,0.5);
+}
+
+.fixtop1:hover{
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color:#212121;
+}
+
+/* MENU 1 for mobile */
+#menu1 {
+    position: relative;
+    background-color: none;
+    text-decoration: none;
+    height: auto;
+    padding:0;
+    margin-top:-10px;
+    
+
+}
+
+#menu1 li {
+    background-color: none;
+    padding: 30px;
+    height: 40px;
+    list-style: none;
+    line-height: auto;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight:bold;
+}
+#menu1 li:hover{
+  color:red;
+}
+#menu1 ul {padding-bottom:-10px;}
+
+#menu1 li>ul {
+    display: none;
+}
+
+/* #menu1 > ul > li {
+  border: 2px solid white;
+} */
+/* #menu1 > ul > li:hover {
+  border: 2px solid black;
+
+} */
+
+#menu1 li:hover>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    top: 40px;
+    margin-bottom:10px;
+    margin-top:10px;
+    left: 0%;
+    right: 0%;
+    padding-bottom:20px;
+    width: 100%;
+    flex-wrap:wrap;
+  }
+
+#menu1 li ul li {
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    text-align: center;
+    align-items: center;
+    color:black
 
 }
 
@@ -648,7 +723,7 @@ a#footerlink:hover {
   margin: 5px 2px;
   border-radius: 50%;
   opacity: 1;
-  color: black !important;
+  color: White !important;
 }
 
 .k-fa:hover {
